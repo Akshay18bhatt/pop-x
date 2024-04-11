@@ -24,7 +24,7 @@
 }
 
 .landing-page-container{
-    max-width: 350px;
+    max-width: 40vw;
     width: 100%;
     padding: 10px;
     height: 90vh;
@@ -35,6 +35,7 @@
 
 .landing-page-div{
     width: 100%;
+    margin-bottom: 20px;
     
 }
 
@@ -79,7 +80,7 @@
 /*              Login Page css          */
 
 .login-page-container{
-    max-width: 350px;
+    max-width:40vw;
     width: 100vw;
     height: 90vh;
     padding: 10px;
@@ -130,7 +131,7 @@ fieldset legend{
 /*              Create Account page css          */
 
 .createAccount-page{
-    max-width: 350px;
+    max-width: 40vw;
     width: 100%;
     height: 90vh;
     padding: 30px 10px;
@@ -170,4 +171,15 @@ fieldset legend{
 .creat-account-form fieldset:last-of-type div{
     display: flex;
     gap: 5px;
+}
+
+
+
+@media screen and (max-width:800px) {
+    
+    .landing-page-container,.login-page-container,.createAccount-page{
+        max-width: 95vw;
+        height: 100vh;
+        width: 100%;
+    }
 }
